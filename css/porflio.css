@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhaijaan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
+#header{
+    height: 100vh;
+    background: linear-gradient(#c7d5eb,#c7d5eb),url(../images/two.jpg.jpg);
+    /* background-image: url(../images/cqtegories.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.user-box{
+    position: absolute;
+    top: 30%px;
+    left: 30%px;
+    transform:translate(20%,20%);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.user-box img{
+    width: 240px;
+    height: 240px;
+    border: 2px solid #ffd1 ;
+    border-radius: 100px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(50%,-50%); */
+}
+
+.user-box h1
+{
+    margin-top: 10px;
+    color:white;
+    font-weight: bold;
+
+}
+.user-box p
+{
+    /* margin-top: 10px;
+    color:white;
+    font-weight: bold; */
+    color: white;
+
+}
+.scroll-btn
+{
+    text-align: center;
+    width: 5%;
+    height: 9%;
+    top: 80%;    
+    left: 50%;
+    position: absolute;
+    border: 2px solid black;
+    transform: translateY(50%);
+    padding: 5px 10px;
+    bottom: 40px;
+    border-radius: 30px;
+}
+
+.scroll-bars span
+{
+    text-align: center;
+    border:2px solid #fff;
+    font-size: 10px;
+    border-radius: 30px;
+}
+.scroll-bars{
+    
+    animation: moves 1ms infinite alternate;
+
+
+}
+    @keyframes moves{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(10);
+    }
+}
+
+
+/* user section start */
+.navbar {
+    top: 0;
+    position: sticky !important;
+   
+    z-index: 2;
+}
+.navbar{
+    background-color: #c7d5eb;
+}
+.navbar-brand{
+    text-align: center;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 23px;
+    text-align: center;
+}
+
+#user-info{
+    
+}
+.about{
+    padding-top: 100px ;
+    padding-bottom: 50px;
+}
+.about img{
+    width: 500px;
+    height: 500px;
+}
+/* user section end */
+.navbar-nav{
+    padding: 2px 12px;
+    text-align: center;
+}
+.nav-item{
+    margin-left: 4px;
+    padding: 2px 12px;
+    text-align: center;
+}
+.navbar-nav .active{
+    
+    border-bottom: 2px solid black;
+}
+.nav-link{
+    color:#fdfaff ;
+}
+.skills-bar p{
+    margin-bottom: 10px;
+    font-weight: 600;
+
+}
+.progress{
+    border-radius: 16px !important;
+}
+.progress-bar{
+    border-radius: 16px;
+    background-color: #000;
+}
+/* resume section start */
+#resume{
+    background-color:#c7d5eb;
+    /* position: sticky;
+    top: 0;
+    z-index: -1; */
+}
+#resume h3 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 12px;
+    padding: 2px 5px;
+    font-weight: 600;
+}
+#resume h4 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 5px;
+    padding: 2px 4px;
+    font-weight: bold;
+}
+#resume li{
+    /* color: white;
+    background-color: black;
+    text-align: center;
+    margin: 26px;
+    padding: 2px 5px;
+    font-weight: 600; */
+    list-style: none;
+}
+#resume p{
+    /* color: white;
+    background-color: black;
+    text-align: center;
+    margin: 26px;
+    padding: 2px 5px;
+    font-weight: 600; */
+    padding: 5px ;
+}
+.time-line{
+    position: relative;
+}
+
+.time-line::before{
+    content: "";
+    height: 100%;
+    width: 3px;
+    display: inline-block;
+    background-color: #000;
+    position: absolute;
+    left: -11px;
+    /* margin-top: 15%; */
+    z-index: 1;
+}
+.time-line li::after{
+    /* position: relative; */
+    content: "";
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #000;
+    border-radius: 50%;
+    z-index: 2;
+}
+/* resume section end */
+/* -----servicessection start */
+
+#services{
+    padding: 23px 12px;
+    /* background-color: #f9f9f9; */
+    color: #000;
+}
+.services-box{
+    /* border: 2px solid black; */
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #f9f9f9;
+}
+/* -----servicessection end */
+
+/* contact section start */
+#contact{
+    background: linear-gradient(rgba(10, 10, 10,.2),rgba(20, 19, 19,.2)),url(../images/Hnet.com-image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-attachment: fixed; */
+}
+
+/* contact section end */
+
+
+
+/* all media query */
+
+@media screen {
+    
+    
+}

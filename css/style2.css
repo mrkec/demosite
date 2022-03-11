@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhaijaan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+/* header section start */
+#header{
+    width: 100vw;
+    background-color:#5c4ea3 ;
+    /* padding-top: 12px; */
+}
+.navbar-brand img{
+    border-radius: 23px;
+}
+.nav-item{
+    margin: 2px 3px !important;
+}
+.nav-link{
+    color:#f5f5f5 !important ;
+    font-size: 12px !important;
+    display: unset;
+}
+.fa-bars{
+    font-size: 40px;
+    color: #f5f5f5;
+}
+.toggler-icon{
+    color:white !important;
+    /* background-color: #f5f5f5 !important; */
+}
+.navbar-toggler{
+    border: 0 !important;
+    outline: none !important;
+}
+.active-home{
+    border-bottom: 2px solid #f5f5f5 ;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #f5f5f5 ;
+}
+
+/* header section end */
+
+/* banner section start */
+.banner{
+    margin-top: 8%;
+    color: #f5f5f5;
+}
+.banner a{
+    /* margin-top: 8%;
+    color: #f5f5f5; */
+    padding: 15px 10px;
+    display: inline-block;
+    width: 170px;
+    background-color: #5c4ea3;
+    text-decoration: none;
+    color: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 2px 1px 3px 4px rgba(201, 202, 213, 0.5);
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.banner h1{
+    margin: 80px 0 50px;
+    font-weight: 600;
+    font-size: 50px;
+}
+.banner img{
+    max-height: 300px;
+}
+
+/* banner section end */
+
+/* -----services section start */
+#services{
+    margin: 75px 0px;
+    
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.subtitle{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.services-box{
+    text-align: center;
+    padding: 23px 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+.services-box h2{
+    margin-top: 12px;
+    font-size: px;
+    margin-bottom: 40px;
+    transition: .5s;
+}
+.services-box:hover,.active-services{
+    background-color: #5c4ea3;
+    color: #f5f5f5;
+    border-radius: 23px;
+    box-shadow: 0 15px 15px 2px rgba(213, 213, 213, .5);
+    transition: .5s;
+
+}
+.services-box:hover p {
+    font-weight: bold;
+    color:#d41c1c ;
+    font-family: 'Hubballi', cursive;
+
+}
+.active-services p{
+    color: #f5f5f5;
+}
+#services-img img{
+    max-width: 200px;
+    max-height: 200px;
+    border: 2px solid black;
+    border-radius: 23px 50px;
+}
+#services-img img:hover{
+    max-width: 200px;
+    max-height: 200px;
+    /* border: 2px solid black; */
+    border-radius: 40px;
+}
+/* -----services section end */
+
+/* features section start */
+#features,.explore{
+    margin: 200px;
+    text-align: center;
+}
+    
+#features img,.explore img{
+    
+    /* width:400px ;
+    height: 80%; */
+    max-width: 500px;
+    max-height: 500px;
+    /* border-radius: 50px;
+     */
+     border-top-left-radius: 52px;
+     border-top-right-radius: 52px;
+     border-bottom-left-radius: 52px;
+     border-bottom-right-radius:52px;
+
+    padding: 30px 50px;
+    margin-right: 12px;
+    
+    /* max-height: 5000px; */
+    cursor: pointer;
+
+}
+#features h2,.explore h2{
+    /* margin-top: 100px; */
+    margin-left: 30px;
+    padding: 20px 30px;
+    font-weight: bold;
+    line-height: 50px;
+}
+#features p,.explore p{
+    /* margin-top: 100px; */
+   margin-top: 20px;
+   margin-left: 30px;
+   padding: 20px 30px;
+}
+#features .btn1 ,.explore .btn1{
+    padding: 15px 10px;
+    display: inline-block;
+    width: 170px;
+    background-color: #5c4ea3;
+    text-decoration: none;
+    color: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 2px 1px 3px 4px rgba(201, 202, 213, 0.5);
+}
+/* features section end */
+
+/* review section start */
+
+#review{
+    /* background-color: #5c4ea3; */
+    margin-top: 100px 0px;
+    /* color: #f5f5f5; */
+}
+.carousel-item img{
+    width: 10%;
+    height: 20%;
+    border-radius: 70%;
+    /* margin-bottom: 12px !important; */
+    padding:0 !important;
+}
+.carousel-item {
+   text-align: center;
+   height: 430px;
+}
+.carousel-caption{
+    margin-left: 23px !important;
+    text-align: center;
+    height: 70% !important;
+    /* border: 2px solid black; */
+    /* width: 50% !important; */
+    margin-top: 2px !important;
+    z-index: -1 !important;
+    box-shadow: 2px 2px 5px 5px rgba(218, 56, 56, 0.5);
+    border-radius: 5px !important;
+    margin-bottom: 50px;
+    /* color: black; */
+}
+.carousel-caption h5{
+    margin-top: 30px;
+    font-weight: bold;
+    color: #000!important;
+}
+.carousel-caption small{
+    margin-top: 12px;
+    padding: 12px;
+    display: block;
+    font-weight: bold;
+    color: #000!important;
+}
+.carousel-caption p{
+    margin-top: 2px;
+    padding: 12px 0px;
+    font-weight: bold;
+    color: #000!important;
+    font-size: 12px !important;
+}
+.carousel-indicators li{
+    background-color: #5c4ea3 !important;
+}
+/* review section end */
+/* footer section start */
+#footer{
+    margin-top: 23px;
+    padding: 23px 12px;
+    background-color: #5c4ea3;
+    color: #f5f5f5;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#footer input{
+    text-align: center;
+    padding: 6px;
+    margin-top: 50px;
+    margin-left: 40%;
+    text-align: center;
+    display: block;
+    width: 30%;
+    background: transparent;
+    border:0 ;
+    outline: none;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #fff;
+
+}
+
+::placeholder{
+    color: #f5f5f5;
+    font-size: 13px;
+}
+#footer button{
+    padding: 12px;
+    width: 30%;
+    margin-left: 40%;
+    /* margin: auto; */
+    margin-top: 12px;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 35px;
+    border: 1px solid #fff;
+    border-radius: 15%;
+}
+/* footer section end */
